@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <style>
+        body{
+            background-color: #f2f4f3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        h1, h2, h3{
+            color: #28383f;
+        }
+        .header{
+            background-image: linear-gradient(to left, #354f52, #52796f);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav a{
+            color: #e0fbfc;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover{
+            color: #cad2c5;
+            text-decoration: underline;
+        }
+        .abc{
+            background-color: #cad2c5;
+            padding: 40px;
+            text-align: center;
+        }
+        .search input{
+            padding: 10px;
+            width: 200px;
+            margin: 10px;
+        }
+        .search button{
+            padding: 10px 20px;
+            background-color: #52796f;
+            color: white;
+            border: none;
+        }
+        .search button:hover{
+            background-color: #354f52;
+            cursor: pointer;
+        }
+        .jobs{
+            padding: 30px;
+        }
+        .job{
+            background-color: white;
+            border: 2px solid #52796f;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 70%;
+        }
+        .job:hover{
+            background-color: #edf6f9;
+        }
+        .job button{
+            padding: 8px 15px;
+            background-color: #52796f;
+            color: white;
+            border: none;
+        }
+        .job button:hover{
+            background-color: #354f52;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <h1>HiringNet</h1>
+        <div class="nav">
+            <a href="home">Home</a>
+            <a href="jobs">Jobs</a>
+            <a href="login">Login</a>
+        </div>
+    </div>
+    <div class="abc">
+        <h2>Find Your Dream Job</h2>
+        <p>Search jobs by skill or location</p>
+
+        <div class="search">
+            <input type="text" placeholder="Job Title">
+            <input type="text" placeholder="Location">
+            <button>Search</button>
+        </div>
+    </div>
+    <div class="jobs">
+        <h2>Latest Openings</h2>
+        <div class="job">
+            <h3>Frontend Developer</h3>
+            <p>Company: Blinkit</p>
+            <p>Location: Bengaluru</p>
+            <p>Experience: 0–2 Years</p>
+            <button>Apply</button>
+        </div>
+        <div class="job">
+            <h3>Backend Developer</h3>
+            <p>Company: Cognizant</p>
+            <p>Location: Remote</p>
+            <p>Experience: 1–3 Years</p>
+            <button>Apply</button>
+        </div>
+        <div class="job">
+            <h3>UI/UX Designer</h3>
+            <p>Company: Designing</p>
+            <p>Location: Bengaluru</p>
+            <p>Experience: Fresher</p>
+            <button>Apply</button>
+        </div>
+    </div>
+</body>
+</html>
