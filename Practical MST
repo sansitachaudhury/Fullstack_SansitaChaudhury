@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Task</title>
+</head>
+<body>
+    <p id="myParagraph">This is the original text.</p>
+    <button id="changeButton">Click Me</button>
+    <script>
+        document.getElementById('changeButton').onclick = function() {
+            const para = document.getElementById('myParagraph');
+            para.textContent = "Welcome to JavaScript DOM Manipulation";
+            para.style.color = "blue";
+            para.style.fontSize = "24px";
+        };
+    </script>
+</body>
+</html>
